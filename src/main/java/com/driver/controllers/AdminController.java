@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/admin")
 public class AdminController {
-
+fffff
 	@PostMapping("/register")
 	public ResponseEntity<Void> registerAdmin(@RequestBody Admin admin){
 		return new ResponseEntity<>(HttpStatus.OK);
